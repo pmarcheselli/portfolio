@@ -1,3 +1,116 @@
+/********* Styling for Index & About Pages *********/
+
+
+
+/********* Body Styles *********/
+
 body {
-  color:darkturquoise;
+  background-color:whitesmoke;
 }
+
+
+
+
+
+/********* Header Styles *********/
+
+header h1 {
+  font-family: "Tahoma", Geneva, sans-serif;
+  color:gray;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:lightgray;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color:slategray;
+  text-align:center;
+  padding: 18px 20px
+}
+
+nav li a:hover {
+  color:whitesmoke;
+}
+
+img {
+  -webkit-animation: filter-animation 5s infinite;
+}
+
+@-webkit-keyframes filter-animation {
+  0% {
+    -webkit-filter: grayscale(0);
+  }
+  
+  50% {
+    -webkit-filter: grayscale(1);
+  }
+  
+  100% {
+    -webkit-filter: grayscale(0);
+  }
+}
+
+
+
+
+/********* Article Styles *********/
+
+h2 {
+  font-family: "Tahoma", Geneva, sans-serif;
+  color:gray;
+  padding-top: 40px;
+}
+
+a {
+  color:cadetblue;
+  
+}
+
+a:hover {
+    color: pink;
+}
+
+p {
+  font-family: "Georgia", serif;
+  color:lightslategray;
+  padding: 8px 20px 20px
+}
+
+
+
+/********* Aside Styles *********/
+
+aside {
+  background-color: lightgray;
+  border: 2px solid lightslategray;
+}
+
+aside h3 {
+  font-family: "Tahoma", Geneva, sans-serif;
+  color:gray;
+  padding: 2px 10px 2px
+}
+
+aside p {
+  color: slategray;
+  padding: 2px 10px 2px
+}
+
+
+
+/********* Footer Styles *********/
+
+footer {
+    margin-left: 2px
+    background-color:lightgray;
+    }

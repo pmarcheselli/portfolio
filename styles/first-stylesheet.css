@@ -33,6 +33,7 @@ header h1 {
 }
 */
 
+
 .header-nav {
   position: fixed;
   width: 100%;
@@ -56,72 +57,54 @@ header h1 {
   color:slategray;
   text-align:center;
   padding: 18px 20px;
+  letter-spacing: 0.15em;
   text-decoration: none;
 }
 
 .header-nav li a:hover {
-  font-family: 'Montserrat', sans-serif;
   color:whitesmoke;
 }
 
-.link-projects, .link-about, .link-home {
+
+.link-lorem {
   float: left;
 }
+ 
+
+
+
 
 /*
+.link-projects {
+  clear: both;
+}
+*/
+
+.link-projects, .link-about, .link-home {
+  float: right;
+}
+
+
 
 .container {
   position: relative;
 } 
-*/
-
-/*
 
 .container img {
-  position: absolute;
-  left: 0;
-  top: 0;
+ 
 }
-*/
 
 .centered h1 {
   z-index: 100;
   position: absolute;
+  font-family: 'Montserrat', sans-serif;
   color: grey;
+  letter-spacing: 0.5em;
   font-size: 3em;
   left: 50%;
   top: 50%;
-}
-
-
-
-/*
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
   transform: translate(-50%, -50%);
-  color: grey;
-  font-size: 3em;
 }
-*/
-
-
-
-/*
-
-
-.centered h1 { 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: grey;
-  font-size: 3em;
-}
-*/
-
-
 
 
 

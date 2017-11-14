@@ -25,15 +25,6 @@ body {
 
 /********* Header & Navbar *********/
 
-/*
-
-header h1 {
-  font-family: 'Montserrat', sans-serif;
-  color:gray;
-}
-*/
-
-
 .header-nav {
   position: fixed;
   width: 100%;
@@ -51,7 +42,6 @@ header h1 {
   background-color:lightgray;
 }
 
-
 .header-nav li a {
   display: block;
   color:slategray;
@@ -65,15 +55,10 @@ header h1 {
   color:whitesmoke;
 }
 
-
 .link-lorem {
   float: left;
 }
  
-
-
-
-
 /*
 .link-projects {
   clear: both;
@@ -85,11 +70,8 @@ header h1 {
 }
 
 
-
 .container {
-  position: relative;
-  text-align: center;
-  
+  position: relative;  
 } 
 
 .centered h1 {
@@ -125,6 +107,21 @@ header h1 {
 
 
 /********* Article Styles *********/
+
+.main-text {
+  width: 100%;
+}
+
+.main-text p {
+  margin-top: 3em;
+  font-family: 'Neuton', serif;
+  font-size: 1.05em;
+  line-height: 125%;
+  padding: 0 8em;
+  text-align: center;
+}
+
+
 
 h2 {
   color:gray;

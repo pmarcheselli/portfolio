@@ -157,16 +157,15 @@ footer {
     height: 6.5vmin;
     width: 100%;
     margin: 0 auto;
-    left: 0%
     position: relative;
     }
 
-.follow {
+footer .follow {
   width: 100%;
   position: absolute;
   text-align: center;
-  bottom: 20px;
-  display: in-line-block;
+  margin: 1.25em;
+/*  display: in-line-block;*/
 }
 
 .follow a {

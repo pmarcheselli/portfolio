@@ -88,27 +88,22 @@ header h1 {
 
 .container {
   position: relative;
+  text-align: center;
+  
 } 
 
-.container img {
- 
-}
-
 .centered h1 {
-  z-index: 100;
   position: absolute;
   font-family: 'Montserrat', sans-serif;
   color: grey;
-  letter-spacing: 0.5em;
   font-size: 3em;
+  letter-spacing: 0.5em;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
 
-
-
-img {
+.container img {
   -webkit-animation: filter-animation 5s infinite;
 }
 

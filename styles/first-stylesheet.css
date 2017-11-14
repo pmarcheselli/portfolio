@@ -115,6 +115,7 @@ body {
 .main-text p {
   margin-top: 3em;
   font-family: 'Neuton', serif;
+  color:lightslategray;
   font-size: 1.05em;
   line-height: 125%;
   padding: 0 8em;
@@ -136,12 +137,14 @@ a {
 a:hover {
     color: pink;
 }
+/*
 
 p {
   font-family: 'Neuton', serif;
   color:lightslategray;
   padding: 8px 20px 20px
 }
+*/
 
 
 

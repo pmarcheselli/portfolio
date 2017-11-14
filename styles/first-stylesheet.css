@@ -3,11 +3,17 @@
 
 
 
-/********* Body Styles & Global Styles *********/
+/********* Body & Global Styles *********/
 
 * {
   margin: 0;
   padding: 0;
+}
+
+.clearfix:after {
+  content: "";    
+  display: block;    
+  clear: both; 
 }
 
 body {
@@ -17,14 +23,26 @@ body {
 
 
 
-/********* Header Styles *********/
+/********* Header & Navbar *********/
+
+/*
 
 header h1 {
   font-family: 'Montserrat', sans-serif;
   color:gray;
 }
+*/
 
-ul {
+.header-nav {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  margin: 0 auto;
+}
+
+.header-nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -32,20 +50,80 @@ ul {
   background-color:lightgray;
 }
 
-nav li {
-  float: left;
-}
 
-nav li a {
+.header-nav li a {
   display: block;
   color:slategray;
   text-align:center;
-  padding: 18px 20px
+  padding: 18px 20px;
+  text-decoration: none;
 }
 
-nav li a:hover {
+.header-nav li a:hover {
+  font-family: 'Montserrat', sans-serif;
   color:whitesmoke;
 }
+
+.link-projects, .link-about, .link-home {
+  float: left;
+}
+
+/*
+
+.container {
+  position: relative;
+} 
+*/
+
+/*
+
+.container img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+*/
+
+.centered h1 {
+  z-index: 100;
+  position: absolute;
+  color: grey;
+  font-size: 3em;
+  left: 50%;
+  top: 50%;
+}
+
+
+
+/*
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: grey;
+  font-size: 3em;
+}
+*/
+
+
+
+/*
+
+
+.centered h1 { 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: grey;
+  font-size: 3em;
+}
+*/
+
+
+
+
 
 img {
   -webkit-animation: filter-animation 5s infinite;

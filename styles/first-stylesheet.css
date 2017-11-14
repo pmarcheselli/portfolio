@@ -20,6 +20,7 @@ body {
 /********* Header Styles *********/
 
 header h1 {
+  font-family: 'Montserrat', sans-serif;
   color:gray;
 }
 
@@ -70,7 +71,6 @@ img {
 /********* Article Styles *********/
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
   color:gray;
   padding-top: 40px;
 }
@@ -100,7 +100,7 @@ aside {
 }
 
 aside h3 {
-  font-family: "Tahoma", Geneva, sans-serif;
+  font-family: 'Neuton', serif;
   color:gray;
   padding: 2px 10px 2px
 }

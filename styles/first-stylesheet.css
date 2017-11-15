@@ -11,12 +11,6 @@
   box-sizing: border-box;
 }
 
-.clearfix:after {
-  content: "";    
-  display: block;    
-  clear: both; 
-}
-
 body {
   background-color:whitesmoke;
   font-family: 'Montserrat', sans-serif;
@@ -106,11 +100,11 @@ body {
 
 .intro {
   width: 100%;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 .intro p {
-  margin-top: 3em;
-  margin-bottom: 3em;
   font-family: 'Neuton', serif;
   color:lightslategray;
   font-size: 1.05em;
@@ -124,18 +118,30 @@ body {
 
 /* Center website */
 .main {
-    max-width: 1000px;
-    margin: auto;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 2em;
 }
 
 h2 {
-    margin: 1em;
-    font-size: 1.5em;
-    letter-spacing: 0.25em;
-    color:gray;
-    text-align: center;
+  margin: 1.5em;
+  font-size: 1.5em;
+  letter-spacing: 0.25em;
+  color:gray;
+  text-align: center;
 }
 
+h3 {
+  color: cadetblue;
+  font-size: 1em;
+  padding-top: 0.5em;
+}
+
+.caption {
+  font-size: 0.80em;
+  padding-top: 0.25em;
+  color: lightslategray;
+}
 .row {
     margin: 8px -16px;
 }

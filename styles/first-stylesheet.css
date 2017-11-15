@@ -139,6 +139,7 @@ h3 {
 
 h3 a {
   text-decoration: none;
+  color: cadetblue;
 }
 
 h3 a:hover {

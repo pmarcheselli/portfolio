@@ -36,7 +36,6 @@ body {
   padding: 0;
   overflow: hidden;
   background-color:lightgray;
-/*  height: 4em;*/
 }
 
 .headernav li a {
@@ -122,10 +121,6 @@ body {
 .main {
   max-width: 1000px;
   margin: auto;
-  margin-top: 2em;
-}
-
-.projects {
   margin-top: 4em;
   margin-bottom: 5em;
 }
@@ -203,7 +198,7 @@ h3 a:hover {
 
 .exp {
   width: 100%;
-  margin: 5em 0;
+  margin-bottom: 5em;
 }
 
 .exp p {

@@ -198,8 +198,7 @@ h3 a:hover {
 
 .exp {
   width: 100%;
-  margin-top: 3em;
-  margin-bottom: 5em;
+  margin: 5em 0;
 }
 
 .exp p {
@@ -208,6 +207,7 @@ h3 a:hover {
   font-size: 1.05em;
   line-height: 150%;
   padding: 0 8em;
+  margin: 3em 0;
   text-align: center;
 }
 

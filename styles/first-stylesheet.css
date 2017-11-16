@@ -218,6 +218,36 @@ h3 a:hover {
 /********* Footer Styles *********/
 
 footer {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-color:lightgray;
+  height: 5em;
+  clear: both;
+}
+
+.follow {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  margin: 1.45em;
+  display: in-line-block;
+}
+
+.follow a {
+  display: in-line-block;
+  margin-right: 1em;
+  color: cadetblue;
+}
+
+.follow a:hover {
+  color: pink;
+}
+
+
+
+/*
+footer {
     width: 100%;
     margin: 0 auto;
     position: relative;
@@ -230,7 +260,7 @@ footer .follow {
   position: absolute;
   text-align: center;
   margin: 1.45em;
-/*  display: in-line-block;*/
+  display: in-line-block;
 }
 
 .follow a {
@@ -241,4 +271,4 @@ footer .follow {
 
 .follow a:hover {
   color: pink;
-}
+}*/

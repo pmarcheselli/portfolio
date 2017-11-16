@@ -20,7 +20,7 @@ body {
 
 /********* Header & Navbar *********/
 
-.header-nav {
+.headernav {
   position: fixed;
   width: 100%;
   left: 0;
@@ -29,7 +29,7 @@ body {
   margin: 0 auto;
 }
 
-.header-nav ul {
+.headernav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -38,7 +38,7 @@ body {
   height: 6.5vmin;
 }
 
-.header-nav li a {
+.headernav li a {
   display: block;
   color:slategray;
   text-align:center;
@@ -47,7 +47,7 @@ body {
   text-decoration: none;
 }
 
-.header-nav li a:hover {
+.headernav li a:hover {
   color:whitesmoke;
 }
 
@@ -221,11 +221,11 @@ h3 a:hover {
 /********* Footer Styles *********/
 
 footer {
-    background-color:lightgray;
-    height: 6.5vmin;
     width: 100%;
     margin: 0 auto;
     position: relative;
+    background-color:lightgray;
+    height: 6.5vmin;
     }
 
 footer .follow {

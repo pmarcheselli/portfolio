@@ -226,7 +226,7 @@ h3 a:hover {
 .about img {
   float: left;
   width: 20%;
-  border: solid 10px white; 
+  border: 10px solid white; 
   margin-left: 10em;
 }
 
